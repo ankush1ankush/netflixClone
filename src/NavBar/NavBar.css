@@ -1,0 +1,163 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 62px;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+
+}
+
+.navbar_content {
+    display: flex;
+
+}
+
+.logo_container {
+    padding: 3px;
+    margin: 1px;
+}
+
+.navbar_logo1 {
+
+    padding: 14px 10%;
+
+    width: 110px;
+    cursor: pointer;
+
+}
+
+
+.navbar_avatar {
+
+    cursor: pointer;
+    position: fixed;
+    border-radius: 2px;
+    right: 40px;
+    height: 30px;
+    padding-top: 14px;
+
+}
+
+.navbar_black {
+    background-color: #111;
+    width: 100%;
+}
+
+.navbar_link {
+    color: white;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 15px;
+    font-weight: 300;
+
+}
+
+.navbar_links {
+    margin-top: -8px;
+    display: flex;
+    margin-left: 2%;
+    min-width: 700px
+}
+
+.dropDown_icon {
+
+    position: fixed;
+    height: 10px;
+    right: 20px;
+    top: 25px;
+    cursor: pointer;
+}
+
+.bell_icon {
+    position: fixed;
+    height: 20px;
+    right: 85px;
+    top: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+@media screen and (min-width: 850px) {
+
+    .scrollmenu {
+
+        background-color: #111;
+        overflow: auto;
+        white-space: nowrap;
+        margin-left: 20px;
+        height: 61px;
+        width: 700px;
+    }
+}
+
+@media screen and (min-width:401px) {
+    .navbar_logo2 {
+        display: none;
+    }
+
+    .scrollmenu {
+
+        background-color: #111;
+        overflow: auto;
+        white-space: nowrap;
+        margin-left: 30px;
+        height: 61px;
+        margin-right: 110px;
+
+
+    }
+}
+
+.scrollmenu p {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.scrollmenu::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+
+.scrollmenu a:hover {
+    background-color: #777;
+}
+
+
+
+@media screen and (max-width: 400px) {
+
+    .navbar_logo1 {
+        display: none;
+    }
+
+    .navbar_logo2 {
+        padding: 13px 5%;
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .scrollmenu {
+
+        background-color: #111;
+        overflow: auto;
+        white-space: nowrap;
+
+        height: 61px;
+        margin-right: 110px;
+
+
+    }
+
+}
