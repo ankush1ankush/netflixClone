@@ -1,6 +1,8 @@
 import React from 'react'
 import "./NavBar.css"
 function NavBar() {
+
+
     return (
         <div className="navbar navbar_black">
             <div className="navbar_content">
@@ -26,7 +28,7 @@ function NavBar() {
                 <div class="scrollmenu grad">
                     <p >Home</p>
                     <p className='navbar_link'>Tv shows</p>
-                    <p className='navbar_link'>Movies</p>
+                    <p className='navbar_link'>Movie</p>
                     <p className='navbar_link'>New & Popular</p>
                     <p className='navbar_link'>My List</p>
                     <p className='navbar_link'>Browse by Languages</p>
